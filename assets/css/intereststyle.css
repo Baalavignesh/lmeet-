@@ -1,0 +1,117 @@
+
+html
+{
+    
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility;
+
+}
+
+body {
+  font-family: 'Lato', serif;
+
+	
+	
+    
+  
+}
+
+.card-title
+{
+	font-size: 25px;
+	margin-bottom: 0px;
+	padding-top: 6px;
+	
+}
+.card-img-top
+{
+    transform: scale(1);
+    transition : transform 0.5s; 
+}
+
+.card-img-top:hover
+{
+    transform: scale(1.03);
+    
+}
+
+/*
+.card-body h5
+{
+    
+    display:inline-block;
+    float:right;
+}*/
+
+.img-thumbnail
+{
+    padding: 0px 0px 0px 0px;
+    transition: 0.5s;
+    overflow: hidden;
+    transform: scale(1.05);
+    position: relative;
+    
+}
+
+.img-thumbnail:hover{
+    filter: brightness(40%);
+    transform: scale(1);
+    
+}
+
+
+.subint{
+    position: relative;
+    transition: 0.5s filter linear;
+	transition: 0.1s;
+   }
+
+.subint img{
+	border-radius: 5px;
+	filter: brightness(80%);
+}
+
+
+
+
+.overlay{
+    
+    position: absolute;
+    top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	text-align: center;
+  	color: white;
+    font-family: 'Lato', serif;
+	font-size: 25px;
+	cursor: default;
+	font: bold;  
+	
+	
+}
+
+.subintmargin {
+	border-radius: 10px;
+	filter: brightness(20%);
+	opacity:0.90;	
+}
+
+h4
+{
+	-webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #000000;
+	font-family: sans-serif times
+}
+
+.hide{
+	
+	display: none;
+}
+
+.nosubcatmargin{
+    border-radius: 10px;
+	filter: brightness(20%);
+	opacity:0.90;	
+}

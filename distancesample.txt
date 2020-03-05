@@ -1,0 +1,7 @@
+	<?php
+		$value = 'vishaaly_kannan';
+		$distance = new distance($con, $userLoggedIn);
+		$num_messages = $distance->distancel($value);
+		echo $num_messages;
+		
+	?>
